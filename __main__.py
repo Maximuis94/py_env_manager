@@ -13,6 +13,7 @@ parser = argparse.ArgumentParser(
 parser.add_argument(
     'path',
     help='The root directory to register as value for the environmental variable.',
+    required=False,
     default=None
 )
 parser.add_argument(
